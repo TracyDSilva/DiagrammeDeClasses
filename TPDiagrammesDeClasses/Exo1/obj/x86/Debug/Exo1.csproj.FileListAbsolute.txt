@@ -1,0 +1,5 @@
+U:\Slam4\TPDiagrammesDeClasses\Exo1\bin\Debug\Exo1.exe
+U:\Slam4\TPDiagrammesDeClasses\Exo1\bin\Debug\Exo1.pdb
+U:\Slam4\TPDiagrammesDeClasses\Exo1\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\Slam4\TPDiagrammesDeClasses\Exo1\obj\x86\Debug\Exo1.exe
+U:\Slam4\TPDiagrammesDeClasses\Exo1\obj\x86\Debug\Exo1.pdb

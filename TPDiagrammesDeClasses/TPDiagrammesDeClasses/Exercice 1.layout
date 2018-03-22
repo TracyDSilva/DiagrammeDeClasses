@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="a0ccceda-3d5d-4746-977b-b54fdf045a89" />
+  <nestedChildShapes>
+    <classShape Id="5a0405b3-1875-494a-ad5a-6ccb237a7761" absoluteBounds="5.375, 1.25, 1.5, 0.92234373509883882" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="7ba4a81d-5b0c-4426-b8cc-80377c4c48c1" LastKnownName="Personne" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="98eed29e-6544-4a70-9921-5219247669d9" absoluteBounds="5.39, 1.6400000000000001, 1.4700000000000002, 0.22117186754941942" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="15b176f1-278e-4387-b41d-f819670ac65e" absoluteBounds="5.39, 1.8711718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="78f8a03b-cc69-4888-90f0-d11ab1ad0c06" absoluteBounds="1.625, 1.25, 1.5, 1.7031249602635703" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="1bdd2b32-0db0-4837-bd65-1c4f98d0deac" LastKnownName="Ordinateur" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="72cfa7bd-44e2-4c19-8756-118d0ecd1f08" absoluteBounds="1.6399999999999997, 1.6400000000000001, 1.4700000000000002, 0.68164060264825821" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="64d5918a-220b-47e3-841a-827c3e9091e0" absoluteBounds="1.6399999999999997, 2.3316406026482586, 1.4700000000000002, 0.52148435761531187" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.125 : 1.71117186754942); (5.375 : 1.71117186754942)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="1..*" targetMultiplicity="1">
+      <associationMoniker Id="4defa921-b632-41ec-be1e-44aaacf969d7" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="78f8a03b-cc69-4888-90f0-d11ab1ad0c06" />
+        <classShapeMoniker Id="5a0405b3-1875-494a-ad5a-6ccb237a7761" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="29884771-0b86-4831-9314-f4ebf7ddd6fa" absoluteBounds="1.5, 4, 1.5, 1.0624999801317845" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="b90eec74-d23a-44ff-b47c-f3bf21e390b3" LastKnownName="Processus" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="42827654-b0bd-41c4-9ca8-d041432136a8" absoluteBounds="1.5150000000000001, 4.39, 1.4700000000000002, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="15889c7e-91b1-4812-8da5-0ed3a22739d1" absoluteBounds="1.515, 4.7613281125823654, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.3125 : 4); (2.3125 : 2.95312496026357)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="1..*" targetMultiplicity="1">
+      <associationMoniker Id="19307b74-49a3-4414-8d86-5a0c1da1bb4c" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="2.4444444440305233, 3, 0.125, 0.14800345897674561" shapeFieldName="TargetMultiplicity" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <classShapeMoniker Id="29884771-0b86-4831-9314-f4ebf7ddd6fa" />
+        <classShapeMoniker Id="78f8a03b-cc69-4888-90f0-d11ab1ad0c06" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8760fcac-ba6c-42e3-9344-36499581d1f8" absoluteBounds="5.25, 3.625, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="95a7e0c8-a77d-4ea3-a015-251eff305b27" LastKnownName="File" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="72b54d9a-98b1-4514-8a87-54cd75619229" absoluteBounds="5.265, 4.015, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="71ec57a2-cd74-4d68-8017-328ea9da3160" absoluteBounds="5.265, 4.22617186754942, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.125 : 2.5939843476812); (5.63541666666667 : 2.5939843476812); (5.63541666666667 : 3.2847648347348); (5.63092105237495 : 3.2847648347348); (5.63092105237495 : 3.625)]" manuallyRouted="true" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
+      <associationMoniker Id="1e273455-bf8b-41ba-abff-2ed0515550da" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="78f8a03b-cc69-4888-90f0-d11ab1ad0c06" />
+        <classShapeMoniker Id="8760fcac-ba6c-42e3-9344-36499581d1f8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 4.26367186754942); (3 : 4.26367186754942)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1..*">
+      <associationMoniker Id="c04125ca-1b6a-44a4-bee8-69c4f5c489d5" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="8760fcac-ba6c-42e3-9344-36499581d1f8" />
+        <classShapeMoniker Id="29884771-0b86-4831-9314-f4ebf7ddd6fa" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
